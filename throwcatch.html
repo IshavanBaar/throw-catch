@@ -1,0 +1,66 @@
+<html>
+
+<link rel="stylesheet" href="throwcatch.css">
+<!-- <script type="text/javascript" src="jquery-1.11.1.js"></script> -->
+<script type="text/javascript" src="jquery-2.1.1.js"></script>
+<script type="text/javascript" src="jQueryRotate.js"></script>
+<script type="text/javascript" src="interact.js"></script>
+<script type="text/javascript" src="throwcatch.js"></script>
+
+<script type="text/javascript">
+window.onload = initLayout;
+</script>
+<body>
+    <div id="basic-drag" class="demo-area">
+        <div id="back" class="nav-button"><img src="images/back-button.png"></div>
+
+        <div class="dropzone left   marker-target cancel-zone drop-inactive" id="cancel1"><img src="images/cancel.png" width="46" height="46" alt="cancel dropzone"></div>
+        <div class="dropzone right  marker-target cancel-zone drop-inactive" id="cancel2"><img src="images/cancel.png" width="46" height="46" alt="cancel dropzone"></div>
+        <div class="dropzone top     marker-target copy-zone drop-inactive" id="copy"><img src="images/copy.png" width="46" height="46" alt="copy dropzone"></div>
+        <div class="dropzone bottom    icon-target delete-zone drop-inactive" id="delete"><img src="images/trash-icon.png" width="55" height="55" alt="delete dropzone"></div>
+
+        <br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="images/folder-icon.png" class="draggable icon folder parent-none" id="graphics">
+                        <img src="images/folder-icon.png" class="draggable icon folder parent-none" id="sound">
+                        <img src="images/folder-icon.png" class="draggable icon folder parent-none" id="video">
+                        <img src="images/folder-icon.png" class="draggable icon folder parent-none" id="misc">
+                        <img src="images/folder-icon.png" class="draggable icon folder parent-none" id="documents">
+<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/files/video/vid.png" class="draggable icon file parent-none" id="vid-file">
+<img src="images/files/top/excel.png" class="draggable icon file parent-none" id="excel-file">
+<img src="images/files/top/pdf.png" class="draggable icon file parent-none" id="pdf-file">
+<img src="images/files/top/zip.png" class="draggable icon file parent-none" id="zip-file">
+<img src="images/files/graphics/jpeg.png" class="draggable icon file parent-none" id="jpeg-file">
+
+
+<img src="images/files/top/powerpoint.png" class="draggable icon file parent-documents" id="powerpoint-file">
+<img src="images/files/top/text.png" class="draggable icon file parent-documents" id="text-file">
+<img src="images/files/top/word.png" class="draggable icon file parent-documents" id="word-file">
+<img src="images/files/top/xml.png" class="draggable icon file parent-documents" id="xml-file">
+
+<img src="images/files/graphics/ink.png" class="draggable icon file parent-graphics" id="ink-file">
+<img src="images/files/graphics/omni.png" class="draggable icon file parent-graphics" id="omni-file">
+
+<img src="images/files/misc/action.png" class="draggable icon file parent-misc" id="action-file">
+<img src="images/files/misc/css.png" class="draggable icon file parent-misc" id="css-file">
+<img src="images/files/misc/dunno.png" class="draggable icon file parent-misc" id="dunno-file">
+<img src="images/files/misc/edn.png" class="draggable icon file parent-misc" id="edn-file">
+<img src="images/files/misc/prefs.png" class="draggable icon file parent-misc" id="prefs-file">
+
+<img src="images/files/sound/midi.png" class="draggable icon file parent-sound" id="midi-file">
+<img src="images/files/sound/music.png" class="draggable icon file parent-sound" id="music-file">
+
+
+
+<img src="images/files/video/avi.png" class="draggable icon file parent-video" id="avi-file">
+<img src="images/files/video/real.png" class="draggable icon file parent-video" id="real-file">
+
+<br><br><br><br>
+<img src="images/trash-icon.png" class="icon folder parent-none" id="trash-folder">
+
+
+        </div>
+
+</body>
+</html>
+
